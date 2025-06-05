@@ -18,6 +18,8 @@ handle_error() {
 [ -d "$ACTIVE_LOGS_DIR" ] || handle_error "Active logs directory not found: $ACTIVE_LOGS_DIR"
 [ -d "$ARCHIVED_LOGS_BASE_DIR" ] || handle_error "Archived logs base directory not found: $ARCHIVED_LOGS_BASE_DIR"
 
+
+#David
 echo "Select log to archive:"
 echo "1) Heart Rate (heart_rate_log.log)"
 echo "2) Temperature (temperature_log.log)"
